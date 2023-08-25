@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 55%;
+  margin: 5% 25%;
+  border: 1px solid #e2dbdb;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1dcdb;
+  padding: 22px;
+}
+
+.inp {
+  border: none;
+  width: 90%;
+  padding: 7px;
+  font-size: 16px;
+}
+
+.inp:focus {
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.insert-btn {
+  background: url('./assets/enter.png');
+  background-size: contain;
+  opacity: 0.5;
+}
+
+.card-task {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  border-bottom: 1px solid #e2dbdb;
+}
+
+.card-clear {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff8f8;
+}
+
+.ref-btn {
+  background: url('./assets/refresh.png');
+  background-size: contain;
+}
+
+.btn-delete {
+  background: url('./assets/trash.png');
+  background-size: contain;
+  margin-left: auto;
+}
+
+.btn-edit {
+  background: url('./assets/edit.svg');
+  background-size: contain;
+}
+
+#btn-clear {
+  color: #636363;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+}
